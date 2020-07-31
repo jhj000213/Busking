@@ -24,6 +24,7 @@ public class StaticMng{
 
     public string _IpAdress = "104.198.127.225";
     public string _PlayStoreAdress = "https://play.google.com/store/apps/details?id=jhj.WellPlayer.Busking";
+    public string _DBIDPW = ";Database=BuskingServer;UserId=root;Password=Jsysb0p5pN1k6wI7;";
     public string _AppVersion = "6";
     public string _UserName;
     public string _NowWantScene;

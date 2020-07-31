@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class DataSaveMng : MonoBehaviour {
 
     MySqlConnection conn;
-    string connectdb = "Server=" + StaticMng.Instance._IpAdress + ";Database=BuskingServer;UserId=root;Password=Jsysb0p5pN1k6wI7;";
+    string connectdb = "Server=" + StaticMng.Instance._IpAdress + StaticMng.Instance._DBIDPW;
     [SerializeField]
     GameObject _LoadingTable;
     DBSupport_SaveMng _DBSupport;
@@ -423,7 +423,7 @@ public class DBSupport_SaveMng
 {
     Thread _Thread;
     MySqlConnection conn;
-    string connectdb = "Server=" + StaticMng.Instance._IpAdress + ";Database=BuskingServer;UserId=root;Password=Jsysb0p5pN1k6wI7;";
+    string connectdb = "Server=" + StaticMng.Instance._IpAdress + StaticMng.Instance._DBIDPW;
 
     bool _Threading;
 
